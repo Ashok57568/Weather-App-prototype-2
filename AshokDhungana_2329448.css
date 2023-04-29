@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    font-family: "Nunito",sans-serif;
+    /* background-image: url("Image32.jpg"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("Image32.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 23px;
+}
+.input{
+    text-align: center;
+    margin:80px 0;
+
+}
+input[type="text"]{
+   height: 50px;
+   width: 600px;
+   background:lightblue;
+   font-family:"Nunito",sans-serif; 
+   font-weight: bold;
+   font-size: 20px;
+   border:none;
+   border-radius: 2px;
+   padding:10px 10px;
+
+
+}
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background:blue;
+    font-family:"Nunito",sans-serif; 
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    border-radius: 2px;
+ }
+ .display{
+    text-align: center;
+    margin-top: -5%;
+ }
+ 
+ .temp{
+    font-size: large;
+    padding-bottom: 10px;
+ }
+  
+.button:hover{
+    background-color:coral;
+}
+table{
+    margin-top: 1%;
+    margin-left: 35%;
+}
+table tr td{
+    padding: 4px 10px;
+}
+.icon {
+    height: 90px;
+    width:90px ;
+    
+}
+.temp{
+    font-size: 30px;
+    font-style: bold;
+    color:black;
+}
+.desc{
+    font-size: 30px;
+    font-style: bold;
+    color:black;
+}
+.day{
+    color:black;
+    
+    font-style: italic;
+
+}
